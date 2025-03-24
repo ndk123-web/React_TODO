@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust width */
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: rgba(128, 0, 128, 0.3); /* Purple track with transparency */
+  border-radius: 10px;
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background: #6b21a8; /* Purple thumb */
+  border-radius: 10px;
+}
+
+/* Scrollbar Handle on Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #581c87; /* Darker purple on hover */
+}
